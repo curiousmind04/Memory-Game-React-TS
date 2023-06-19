@@ -1,4 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap");
+
 :root {
+  --orange: #fda214;
+  --greyish-blue: #bcced9;
+  --navy-blue: #304859;
+  --dark-blue: #152938;
+  --light-grey: #f2f2f2;
+  --pale-blue: #7191a5;
+  --sky-blue: #6395b8;
+  --white: #fcfcfc;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -13,5 +24,6 @@
 }
 
 body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
   min-height: 100vh;
 }
